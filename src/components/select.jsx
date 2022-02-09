@@ -6,14 +6,14 @@ class select extends Component {
             <>
             <select value ={this.props.value} onChange ={ this.props.onChange}>
                 {
-                    this.props.option.map(e ,index)=> {
+                    this.props.option.map((e ,index)=> {
                         
                         return (
                             <>
-                            <option value={index}> {e} Wedriy </option>
+                            <option value={index}> {e} good </option>
                             <option value={index}> {e}  norma </option>
-                            <option value={index}> {e} poydet </option>
-                            <option value={index}> {e} JMOT!</option>
+                            <option value={index}> {e} norm </option>
+                            <option value={index}> {e} good bye!</option>
                             
                             </>
                             
@@ -21,7 +21,7 @@ class select extends Component {
                         )
 
                         
-                    }
+                    })
                 }
                    
                 </select>
